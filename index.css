@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.head {
+    /* width:10wh; */
+   
+    padding-top: 120px;
+    padding-bottom: 60px;
+    background: linear-gradient(45deg, #14cc3b, #149dcc);
+
+}
+
+strong {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    margin-left: 500px;
+    width: 300px;
+    color: aliceblue;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boxes{
+padding-left: 20px;
+background-color:rgba(237, 230, 230, 0.336);
+height: 150vh;
+
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box1:hover{
+    background-color: #149dcc;
+    border-radius: 3px solid black;
+    
+}
+.box{
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(195, 12, 12);
+}
+
+.box1{
+    
+    background-image: url("https://mobirise.com/bootstrap-gallery/assets1/images/photo-1505693416388-ac5ce068fe85-1350x900-800x533.jpg");
+}
+
+.box2{
+    background-image: url("https://mobirise.com/bootstrap-gallery/assets1/images/photo-1445708044394-daa038a45d6b-1350x900-800x533.jpg");
+}
+.box3{
+    background-image: url("https://mobirise.com/bootstrap-gallery/assets1/images/photo-1456518563096-0ff5ee08204e-1351x901-800x533.jpg");
+}
+.box4{
+    background-image: url("https://mobirise.com/bootstrap-gallery/assets1/images/photo-1462212018902-1ca14eec1bb2-1350x900-800x533.jpg");
+}
+.box5{
+    background-image: url("https://mobirise.com/bootstrap-gallery/assets1/images/photo-1466495227171-d05d7e3ac2b3-1401x875-800x499.jpg");
+}
+.box6{
+    background-image: url("https://mobirise.com/bootstrap-gallery/assets1/images/photo-1477519242566-6ae87c31d212-1350x900-800x533.jpg");
+}
+.box7{
+    background-image: url("https://mobirise.com/bootstrap-gallery/assets1/images/photo-1482017276394-d2ddc6d4c978-1350x900-800x533.jpg");
+}
+.box8{
+    background-image: url("https://mobirise.com/bootstrap-gallery/assets1/images/photo-1490230489679-1185c97a7b44-1353x899-800x531.jpg");
+}
+.box9{
+    background-image: url("https://mobirise.com/bootstrap-gallery/assets1/images/photo-1509705313670-ccc1f8c564b0-1268x950-800x599.jpg");
+}
+
+@media only screen and (max-width:500px) {
+.boxes{
+    grid-template-columns:2fr;
+}
+    
+}
